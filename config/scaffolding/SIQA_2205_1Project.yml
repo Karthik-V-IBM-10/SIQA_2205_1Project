@@ -20,6 +20,14 @@ packages:
   gitUsername: prabhakarsag
   gitBranch: main
 services:
+- serviceName: project.siqa_2205_1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:DBInsert
+  packages:
+  - name: SIQA_2205_1Project
+    version: "1.0"
+  - name: TPP_services_in_FCS
+    version: "1.0"
+  - name: JMSTest
+    version: "1.0"
 - serviceName: project.siqa_2205_1.integrations:AlertsCRTandERT
   packages:
   - name: SIQA_2205_1Project
@@ -48,6 +56,14 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.2059
+- serviceName: project.siqa_2205_1.integrations:SIQAAdapterFlow
+  packages:
+  - name: SIQA_2205_1Project
+    version: "1.0"
+  - name: TPP_services_in_FCS
+    version: "1.0"
+  - name: JMSTest
+    version: "1.0"
 - serviceName: project.siqa_2205_1.integrations:Sum
   packages:
   - name: SIQA_2205_1Project
