@@ -32,6 +32,22 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.2059
+- serviceName: project.siqa_2205_1.integrations:JMSFlowTest
+  packages:
+  - name: SIQA_2205_1Project
+    version: "1.0"
+  - name: TPP_services_in_FCS
+    version: "1.0"
+  - name: JMSTest
+    version: "1.0"
+- serviceName: publisher:publisher
+  packages:
+  - name: JMSTest
+    version: "1.0"
+- serviceName: pub.jms:send
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2059
 - serviceName: project.siqa_2205_1.integrations:Sum
   packages:
   - name: SIQA_2205_1Project
