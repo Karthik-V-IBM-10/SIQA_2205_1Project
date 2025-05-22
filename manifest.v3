@@ -12,17 +12,18 @@
     <value name="JMSTest">1.0</value>
     <value name="WmJDBCAdapter">10.3.0.0.34</value>
     <value name="SIQAJDBCAdapterTests">1.0</value>
+    <value name="DADA_GlobalVariable1">1.0</value>
   </record>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">22</value>
+  <value name="build">23</value>
   <null name="description"/>
   <value name="created_date">22-05-2025 05:02:14 GMT</value>
   <null name="extendedProperties"/>
   <null name="target_server_version"/>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2025-05-22T05:34:59.622508499Z</value>
+  <value name="lastUpdated">2025-05-22T05:35:14.872544469Z</value>
   <value name="wmProjectId">fl8fe9efa7bdc20684282757</value>
   <value name="creator">siqa developerUser</value>
 </Values>
