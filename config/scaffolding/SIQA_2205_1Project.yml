@@ -12,6 +12,11 @@ packages:
   gitUrl: https://github.com/Karthik-V-IBM-10
   gitUsername: Karthik-V-IBM-10
   gitBranch: main
+- name: JMSTest
+  gitServerName: SIQAPsurGit
+  gitUrl: https://github.com/prabhakarsag
+  gitUsername: prabhakarsag
+  gitBranch: main
 services:
 - serviceName: project.siqa_2205_1.integrations:AlertsCRTandERT
   packages:
